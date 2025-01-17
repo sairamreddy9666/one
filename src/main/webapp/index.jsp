@@ -87,7 +87,7 @@
     <!-- person detail  -->
     <div class="form-control">
       <div class="heading-field">
-        <h3 class="field-head">Personal Details </h3>
+        <h3 color="red" class="field-head">Personal Details </h3>
       </div>
       <div class="field-inputs">
         <div class="input-div">
