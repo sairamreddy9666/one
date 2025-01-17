@@ -104,7 +104,7 @@
 
     
 
-    <button type="submit"> Submit </button>
+    <button color="red" type="submit"> Submit </button>
 
   </form>
   <!-- form ends -->
