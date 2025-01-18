@@ -84,22 +84,7 @@
     </div>
     <!-- contanct ends -->
 
-    <!-- person detail  -->
-    <div class="form-control">
-      <div class="heading-field">
-        <h3 color="red" class="field-head">Personal Details </h3>
-      </div>
-      <div class="field-inputs">
-        <div class="input-div">
-          <input type="radio" id="male" name="gender" value="male">
-          <label for="male">Male</label><br>
-          <input type="radio" id="female" name="gender" value="female">
-          <label for="female">Female</label><br>
-          
-        </div>
-      </div>
-    </div>
-    <!-- personal detail ends -->
+ 
 
     
 
