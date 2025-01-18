@@ -65,24 +65,7 @@
     </div>
     <!-- Address ends -->
 
-    <!-- contact  -->
-    <div class="form-control">
-
-      <div class="heading-field">
-        <h3 class="field-head">Contact </h3>
-      </div>
-      <div class="field-inputs">
-        <div class="input-div">
-          <input type="tel" class="form-control-input" id="first-name" name="contact" required>
-          <div id="tel-name-help" class="help-text">Phone</div>
-        </div>
-        <div class="input-div">
-          <input type="email" class="form-control-input" id="email" name="email" required>
-          <div id="last-name-help" class="help-text">Email</div>
-        </div>
-      </div>
-    </div>
-    <!-- contanct ends -->
+ 
 
  
 
