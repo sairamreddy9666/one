@@ -5,6 +5,26 @@
   <!-- form start -->
   <form class="form-class">
 
+<!-- Name -->
+    <div class="form-control">
+
+      <div class="heading-field">
+        <h3 class="field-head">Customer Name </h3>
+      </div>
+      <div class="field-inputs">
+        <div class="input-div">
+          <input type="text" class="form-control-input" id="first-name" name="first name" required>
+          <div id="first-name-help" class="help-text">Enter Your First Name</div>
+        </div>
+        <div class="input-div">
+          <input type="text" class="form-control-input" id="last-name" name="last name" required>
+          <div id="last-name-help" class="help-text">Enter last First Name</div>
+        </div>
+      </div>
+    </div>
+    <!-- Name Ends -->
+
+
     
     <!-- Address -->
     <div class="form-control">
