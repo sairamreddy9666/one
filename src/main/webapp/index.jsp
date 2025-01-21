@@ -62,6 +62,7 @@
 </head>
 
 <body>
+<title>main title</title>
     <main id="main">
 
         <!-- Title of the page -->
