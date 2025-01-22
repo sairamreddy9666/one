@@ -1,75 +1,56 @@
-<html>
-<head></head>
+<!-- Filename - index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+</head>
 <body>
     <header>
-        <p>The Ultimate Technology and Programming Conference</p>
+        <h1 id="top">Online</h1>
+        <h1 id="top1">FoodShop</h1>
     </header>
-    <nav>
-        <a href="#about">About</a> |
-        <a href="#schedule">Schedule</a> |
-        <a href="#speakers">Speakers</a> |
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>About the Event</h2>
-        <p>GeeksforGeeks TechCon 2025 brings together leading minds in programming,
-          tech, and innovation. Join us for a day of insightful talks, hands-on workshops,
-          and an opportunity to network with fellow geeks and professionals from all around the world.</p>
-    </section>
-    <section id="schedule">
-        <h2>Event Schedule</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Time</th>
-                    <th>Session</th>
-                    <th>Contest</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>9:00 AM</td>
-                    <td>Opening Keynote</td>
-                    <td>GeeksforGeeks Coding Plateform</td>
-                </tr>
-                <tr>
-                    <td>10:30 AM</td>
-                    <td>Understanding AI and Machine Learning</td>
-                    <td>Mr. Arvind Kumar</td>
-                </tr>
-                <tr>
-                    <td>1:00 PM</td>
-                    <td>Lunch Break</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>2:00 PM</td>
-                    <td>Exploring the Future of Cloud Computing</td>
-                    <td>Ms. Neha Gupta</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <section id="speakers">
-        <h2>Meet the Speakers</h2>
-        <ul>
-            <li><strong>Dr. Radhika Sharma:</strong> AI Expert and Researcher</li>
-            <li><strong>Mr. Arvind Kumar:</strong> Senior Data Scientist at TechWave</li>
-            <li><strong>Ms. Neha Gupta:</strong> Cloud Computing Specialist at CloudTech</li>
-            <li><strong>Mr. Sandeep Reddy:</strong> Full Stack Developer and Open-Source Contributor</li>
+    <hr>
+    <nav id="navbar">
+      <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240711123257/jpeg-optimizer_2151336570.jpg">
+        <ul id="navcontent">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="contact.html">ContactUs</a></li>
         </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4"></textarea><br><br>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+    </nav>
+    <div id="container1">
+        <div id="row1">
+            Welcome to Online FoodShop
+        </div>
+        <button class="btn">ORDER NOW</button>
+        <div id="container3">
+            <div id="row2">
+                <button class="btn">Prices</button>
+            </div>
+            <div id="row3">
+                <button class="btn">Specials</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h1 id="top3">Featured Products</h1>
+    <div id="container4">
+        <div id="row4">
+            <button class="btn">ORDER NOW</button>
+        </div>
+        <div id="row5">
+            <button class="btn">ORDER NOW</button>
+        </div>
+        <div id="row6">
+            <button class="btn">ORDER NOW</button>
+        </div>
+    </div>
+    <footer>Copyright © 2020-2021 OnlineFoodShop.
+        All Rights are reserved</footer>
 </body>
 </html>
