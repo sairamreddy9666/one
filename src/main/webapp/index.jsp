@@ -2,7 +2,6 @@
 <head></head>
 <body>
     <header>
-        <h1>Welcome to GeeksforGeeks TechCon 2025</h1>
         <p>The Ultimate Technology and Programming Conference</p>
     </header>
     <nav>
