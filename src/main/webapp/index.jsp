@@ -1,222 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" 
-          content="IE=edge">
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0">
-    <title>
-        Build a Survey Form using HTML and CSS
-    </title>
-
     <style>
-        /* Styling the Body element 
-        i.e. Color, Font, Alignment */
-        body {
-            background-color: #05c46b;
-            font-family: Verdana;
+
+        /* Styling the body */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* Styling the first parallax's 
+        height, width and background color */
+        .parallax-1 {
+            width: 100%;
+            height: 600px;
+            background: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        /* Styling the title of first parallax */
+        .parallax-1 h2 {
+            margin: auto;
+            position: relative;
+            left: 500x;
+            top: 300px;
+            width: 250px;
+            height: 32px;
+            padding: 10px;
+            background-color: black;
+            color: white;
             text-align: center;
         }
 
-        /* Styling the Form (Color, Padding, Shadow) */
-        form {
-            background-color: #fff;
-            max-width: 500px;
-            margin: 50px auto;
-            padding: 30px 20px;
-            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-        }
-
-        /* Styling form-control Class */
-        .form-control {
-            text-align: left;
-            margin-bottom: 25px;
-        }
-
-        /* Styling form-control Label */
-        .form-control label {
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        /* Styling form-control input, 
-        select, textarea */
-        .form-control input,
-        .form-control select,
-        .form-control textarea {
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            padding: 10px;
-            display: block;
-            width: 95%;
-        }
-
-        /* Styling form-control Radio 
-        button and Checkbox */
-        .form-control input[type="radio"],
-        .form-control input[type="checkbox"] {
-            display: inline-block;
-            width: auto;
-        }
-
-        /* Styling Button */
-        button {
-            background-color: #05c46b;
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
+        /* Styling the second parallax's 
+        height, width and background color */
+        .parallax-2 {
             width: 100%;
-            margin-top: 50px;
-            margin-bottom: 20px;
+            height: 600px;
+            background: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        /* Styling the title of second parallax */
+        .parallax-2 h2 {
+            margin: auto;
+            position: relative;
+            left: 500x;
+            top: 300px;
+            width: 250px;
+            height: 37px;
+            padding: 10px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-family: Verdana;
+        }
+
+        /* Styling the content or paragraph */
+        .para-1 {
+            padding: 50px;
+            background-color: black;
+            color: white;
+            font-size: 17px;
+        }
+
+        /* Styling the content or paragraph */
+        .para-2 {
+            text-align: center;
+            padding: 25px;
+            font-size: 17px;
+            font-family: Verdana;
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
 
 <body>
-    <h1>GeeksforGeeks Survey Form</h1>
 
-    <!-- Create Form -->
-    <form id="form">
+    <!-- Giving title of the first parallax -->
+    <div class="parallax-1">
+        <h2>SUSHANT GAURAV</h2>
+    </div>
 
-        <!-- Details -->
-        <div class="form-control">
-            <label for="name" id="label-name">
-                Name
-            </label>
+    <!--Content of first parallax -->
+    <div class="para-1">
+        <p>
+            Thankyou for showing interest, 
+            here is a quick story of me and
+            this website. My programming 
+            journey started back in 2019, 
+            few months before I started 
+            studying CSE in LNCT Bhopal. 
+            I am currently in my second 
+            year and doing Technical 
+            Content Writing Internship
+            at GeeksForGeeks. I like 
+            coding all kind of problems 
+            from the very basic like adding 
+            numbers to the complex ones like
+            competitive programming problems.
+            I love making projects and games.
+            Infact this website is one of my 
+            Web Development Projects which 
+            is built using HTML and CSS.<br>
+            <br>Languages known : C Language, 
+            C++, JAVA, Python, JavaScript, 
+            MySQL.<br> IT Constructs : Data 
+            Structures and Algorithm, OOP, 
+            HTML, CSS, LINUX, and Git & GitHub.
+        </p>
+    </div>
 
-            <!-- Input Type Text -->
-            <input type="text" id="name" 
-                   placeholder="Enter your name" />
-        </div>
+    <!-- Giving title of the first parallax -->
+    <div class="parallax-2">
+        <h2>PROJECTS</h2>
+    </div>
 
-        <div class="form-control">
-            <label for="email" id="label-email">
-                Email
-            </label>
+    <!--Content of first parallax -->
+    <div class="para-2">
+        <p>
+            &nbsp; Calendar &nbsp; 
+            Tic-Tac-Toe &nbsp; 
+            Quiz Game &nbsp; 
+            Survey Form &nbsp; 
+            Chat Bot in C &nbsp; 
+            Tribute Webpage &nbsp; 
+            Portfolio Website &nbsp; 
+            Guess the Number &nbsp; 
+            Rock Paper Scissor &nbsp;
+            To-Do List using JS &nbsp; 
+            Notes Taker using JS &nbsp; 
+            BMI Calculator using JS &nbsp;
+            Loan Calculator using JS &nbsp; 
+            Travel Management System &nbsp; 
+            Random Password Generator &nbsp; 
+            Different Management Systems
+        </p>
+    </div>
 
-            <!-- Input Type Email-->
-            <input type="email" id="email" 
-                   placeholder="Enter your email" />
-        </div>
+    <!--This will be same as first parallax-->
+    <div class="parallax-1">
+        <h2>ACHIEVEMENTS</h2>
+    </div>
 
-        <div class="form-control">
-            <label for="age" id="label-age">
-                Age
-            </label>
-
-            <!-- Input Type Text -->
-            <input type="text" id="age" 
-                   placeholder="Enter your age" />
-        </div>
-
-        <div class="form-control">
-            <label for="role" id="label-role">
-                Which option best describes you?
-            </label>
-
-            <!-- Dropdown options -->
-            <select name="role" id="role">
-                <option value="student">Student</option>
-                <option value="intern">Intern</option>
-                <option value="professional">
-                    Professional
-                </option>
-                <option value="other">Other</option>
-            </select>
-        </div>
-
-        <div class="form-control">
-            <label>
-                Would you recommend GeeksforGeeks
-                to a friend?
-            </label>
-
-            <!-- Input Type Radio Button -->
-            <label for="recommed-1">
-                <input type="radio" id="recommed-1" 
-                       name="recommed">Yes
-                  </input>
-            </label>
-            <label for="recommed-2">
-                <input type="radio" id="recommed-2" 
-                       name="recommed">No
-                  </input>
-            </label>
-            <label for="recommed-3">
-                <input type="radio" id="recommed-3" 
-                       name="recommed">Maybe
-                  </input>
-            </label>
-        </div>
-
-        <div class="form-control">
-            <label>Languages and Frameworks known
-                <small>(Check all that apply)</small>
-            </label>
-            <!-- Input Type Checkbox -->
-            <label for="inp-1">
-                <input type="checkbox" name="inp">C
-                  </input>
-              </label>
-            <label for="inp-2">
-                <input type="checkbox" name="inp">C++
-                  </input>
-            </label>
-            <label for="inp-3">
-                <input type="checkbox" name="inp">C#
-                  </input>
-            </label>
-            <label for="inp-4">
-                <input type="checkbox" name="inp">Java
-                  </input>
-            </label>
-            <label for="inp-5">
-                <input type="checkbox" name="inp">Python
-                  </input>
-            </label>
-            <label for="inp-6">
-                <input type="checkbox" name="inp">JavaScript
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">React
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">Angular
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">Django
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">Spring
-                  </input>
-            </label>
-        </div>
-
-        <div class="form-control">
-            <label for="comment">
-                Any comments or suggestions
-            </label>
-
-            <!-- multi-line text input control -->
-            <textarea name="comment" id="comment" 
-                      placeholder="Enter your comment here">
-            </textarea>
-        </div>
-
-        <!-- Multi-line Text Input Control -->
-        <button type="submit" value="submit">
-            Submit
-        </button>
-    </form>
+    <div class="para-2">
+        <p>
+            &nbsp; Technical Content Writer 
+            Intern at GeeksForGeeks 
+            &nbsp; Microsoft Learn Student 
+            Ambassador - Beta &nbsp; 
+            Participant in GirlScript Summer 
+            of Code 2021 &nbsp; 
+            Mentored HackTX Hackathon
+        </p>
+    </div>
 </body>
-
+  
 </html>
