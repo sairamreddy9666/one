@@ -1,166 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-  
-<head>
-    <style>
-
-        /* Styling the body */
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        /* Styling the first parallax's 
-        height, width and background color */
-        .parallax-1 {
-            width: 100%;
-            height: 600px;
-            background: url(
-'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
-            background-size: 100% 100%;
-            background-attachment: fixed;
-        }
-
-        /* Styling the title of first parallax */
-        .parallax-1 h2 {
-            margin: auto;
-            position: relative;
-            left: 500x;
-            top: 300px;
-            width: 250px;
-            height: 32px;
-            padding: 10px;
-            background-color: black;
-            color: white;
-            text-align: center;
-        }
-
-        /* Styling the second parallax's 
-        height, width and background color */
-        .parallax-2 {
-            width: 100%;
-            height: 600px;
-            background: url(
-'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
-            background-size: 100% 100%;
-            background-attachment: fixed;
-        }
-
-        /* Styling the title of second parallax */
-        .parallax-2 h2 {
-            margin: auto;
-            position: relative;
-            left: 500x;
-            top: 300px;
-            width: 250px;
-            height: 37px;
-            padding: 10px;
-            background-color: white;
-            color: black;
-            text-align: center;
-            font-size: 30px;
-            font-family: Verdana;
-        }
-
-        /* Styling the content or paragraph */
-        .para-1 {
-            padding: 50px;
-            background-color: black;
-            color: white;
-            font-size: 17px;
-        }
-
-        /* Styling the content or paragraph */
-        .para-2 {
-            text-align: center;
-            padding: 25px;
-            font-size: 17px;
-            font-family: Verdana;
-            background-color: black;
-            color: white;
-        }
-    </style>
-</head>
-
+<html>
+<head></head>
 <body>
-
-    <!-- Giving title of the first parallax -->
-    <div class="parallax-1">
-        <h2>SUSHANT GAURAV</h2>
-    </div>
-
-    <!--Content of first parallax -->
-    <div class="para-1">
-        <p>
-            Thankyou for showing interest, 
-            here is a quick story of me and
-            this website. My programming 
-            journey started back in 2019, 
-            few months before I started 
-            studying CSE in LNCT Bhopal. 
-            I am currently in my second 
-            year and doing Technical 
-            Content Writing Internship
-            at GeeksForGeeks. I like 
-            coding all kind of problems 
-            from the very basic like adding 
-            numbers to the complex ones like
-            competitive programming problems.
-            I love making projects and games.
-            Infact this website is one of my 
-            Web Development Projects which 
-            is built using HTML and CSS.<br>
-            <br>Languages known : C Language, 
-            C++, JAVA, Python, JavaScript, 
-            MySQL.<br> IT Constructs : Data 
-            Structures and Algorithm, OOP, 
-            HTML, CSS, LINUX, and Git & GitHub.
-        </p>
-    </div>
-
-    <!-- Giving title of the first parallax -->
-    <div class="parallax-2">
-        <h2>PROJECTS</h2>
-    </div>
-
-    <!--Content of first parallax -->
-    <div class="para-2">
-        <p>
-            &nbsp; Calendar &nbsp; 
-            Tic-Tac-Toe &nbsp; 
-            Quiz Game &nbsp; 
-            Survey Form &nbsp; 
-            Chat Bot in C &nbsp; 
-            Tribute Webpage &nbsp; 
-            Portfolio Website &nbsp; 
-            Guess the Number &nbsp; 
-            Rock Paper Scissor &nbsp;
-            To-Do List using JS &nbsp; 
-            Notes Taker using JS &nbsp; 
-            BMI Calculator using JS &nbsp;
-            Loan Calculator using JS &nbsp; 
-            Travel Management System &nbsp; 
-            Random Password Generator &nbsp; 
-            Different Management Systems
-        </p>
-    </div>
-
-    <!--This will be same as first parallax-->
-    <div class="parallax-1">
-        <h2>ACHIEVEMENTS</h2>
-    </div>
-
-    <div class="para-2">
-        <p>
-            &nbsp; Technical Content Writer 
-            Intern at GeeksForGeeks 
-            &nbsp; Microsoft Learn Student 
-            Ambassador - Beta &nbsp; 
-            Participant in GirlScript Summer 
-            of Code 2021 &nbsp; 
-            Mentored HackTX Hackathon
-        </p>
-    </div>
+    <header>
+        <h1>Welcome to GeeksforGeeks TechCon 2025</h1>
+        <p>The Ultimate Technology and Programming Conference</p>
+    </header>
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#schedule">Schedule</a> |
+        <a href="#speakers">Speakers</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About the Event</h2>
+        <p>GeeksforGeeks TechCon 2025 brings together leading minds in programming,
+          tech, and innovation. Join us for a day of insightful talks, hands-on workshops,
+          and an opportunity to network with fellow geeks and professionals from all around the world.</p>
+    </section>
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Contest</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Opening Keynote</td>
+                    <td>GeeksforGeeks Coding Plateform</td>
+                </tr>
+                <tr>
+                    <td>10:30 AM</td>
+                    <td>Understanding AI and Machine Learning</td>
+                    <td>Mr. Arvind Kumar</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Exploring the Future of Cloud Computing</td>
+                    <td>Ms. Neha Gupta</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="speakers">
+        <h2>Meet the Speakers</h2>
+        <ul>
+            <li><strong>Dr. Radhika Sharma:</strong> AI Expert and Researcher</li>
+            <li><strong>Mr. Arvind Kumar:</strong> Senior Data Scientist at TechWave</li>
+            <li><strong>Ms. Neha Gupta:</strong> Cloud Computing Specialist at CloudTech</li>
+            <li><strong>Mr. Sandeep Reddy:</strong> Full Stack Developer and Open-Source Contributor</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
-  
 </html>
